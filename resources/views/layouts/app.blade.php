@@ -38,7 +38,17 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,180,1) 32%, rgba(
 
                     <li>
                         <a href="#">
-                            <p class="text-white">New Games</p>
+                            <p class="text-white border-b-4 border-yellow-600">New Games</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="text-white border-b-4 border-red-600">Hot Games</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="text-white border-b-4 border-green-600">Favourite Games</p>
                         </a>
                     </li>
                 </ul>

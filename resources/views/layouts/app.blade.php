@@ -17,7 +17,7 @@
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,180,1) 32%, rgba(0,212,255,1) 100%);">
     <nav x-data="{ open: false }" class="text-black bg-[#020028] border-b-2 border-black">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="{{ url('/images/wordle.png') }}" class="h-8" alt="Flowbite Logo" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Wordle Game</span>
             </a>

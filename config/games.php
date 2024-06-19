@@ -9,7 +9,7 @@ return [
     ],
     'custom-wordle' => [
         'title' => 'Custom Wordle',
-        'gameUrl' => 'https://example.com/game/custom-wordle.embed',
+        'gameUrl' => 'https://wordlewebsite.com/game/custom-wordle.embed',
         'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/custom-wordle1-m190x110.png', // Example image URL
         'description' => 'Custom Wordle - a customizable version of the Wordle game...'
     ],

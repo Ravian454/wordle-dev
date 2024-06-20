@@ -23,4 +23,7 @@
         <p class="text-white">This section will be used for ads</p>
     </div>
 </div>
+<div class="mt-20">
+    @livewire('game-list')
+</div>
 @endsection

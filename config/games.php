@@ -214,4 +214,115 @@ return [
         'description' => '',
     ],
 
+    'buckshotroulette' => [
+        'title' => 'buckshot roulette',
+        'gameUrl' => 'https://wordlewebsite.com/game/buckshot-roulette.embed',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/buckshot-roulette-m190x110.png',
+        'description' => '',
+    ],
+
+    'wafflegame' => [
+        'title' => 'waffle game',
+        'gameUrl' => 'https://wordlewebsite.com/game/waffle-game-online.embed',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/waffle-game-m190x110.png',
+        'description' => '',
+    ],
+
+    'canuckle' => [
+        'title' => 'canuckle',
+        'gameUrl' => 'https://wordlewebsite.com/game/canuckle.embed',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/canuckle1-m190x110.png',
+        'description' => '',
+    ],
+
+    'triangle' => [
+        'title' => 'triangle',
+        'gameUrl' => 'https://wordlewebsite.com/game/triangle.embed',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/triangle-m190x110.png',
+        'description' => '',
+    ],
+
+    'drivemad' => [
+        'title' => 'drive mad',
+        'gameUrl' => 'https://wordlewebsite.com/game/drive-mad.embed',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/drive-mad-m190x110.png',
+        'description' => '',
+    ],
+
+    'spellingbee' => [
+        'title' => 'spelling bee',
+        'gameUrl' => 'https://wordlewebsite.com/game/spelling-bee.embed',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/spelling-bee-m190x110.png',
+        'description' => '',
+    ],
+
+
+    'googledoodles' => [
+        'title' => 'google doodles',
+        'gameUrl' => 'https://wordlewebsite.com/game/google-doodles.embed',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/google-doodles-m190x110.png',
+        'description' => '',
+    ],
+
+    'spidersolitaire2suits' => [
+        'title' => 'spider solitaire 2 suits',
+        'gameUrl' => 'https://wordlewebsite.com/game/spider-solitaire-2-suits.embed',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/game/spider-solitaire-2-suits-cover-m190x110.png ',
+        'description' => '',
+    ],
+    'geometrydash' => [
+        'title' => 'geometry dash',
+        'gameUrl' => 'https://wordlewebsite.com/game/geometry-dash.embed',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/game/geometry-dash-online-cover-m190x110.png',
+        'description' => '',
+    ],
+    'paperio2' => [
+        'title' => 'paper io 2',
+        'gameUrl' => 'https://html5.gamedistribution.com/c5d4966b176246748d6c847103ebfd51/?gd_sdk_referrer_url=https%3A%2F%2Fwww.1001games.com%2Fmultiplayer%2Fpaper-io-2 ',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/paper-io-2-m190x110.png',
+        'description' => '',
+    ],
+
+    'google-snake' => [
+        'title' => 'google snake',
+        'gameUrl' => 'https://wordlewebsite.com/game/google-snake.embed',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/google-snake-m190x110.png',
+        'description' => '',
+    ],
+    
+    'dordle' => [
+        'title' => 'dordle',
+        'gameUrl' => 'https://wordlewebsite.com/game/dordle.embed',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/dordle3-m190x110.png',
+        'description' => '',
+    ],
+
+    'slitherio' => [
+        'title' => 'slither io',
+        'gameUrl' => 'https://wordlewebsite.com/game/slither-io.embed',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/slither.io-m190x110.png',
+        'description' => '',
+    ],
+
+    'spacebarclicker' => [
+        'title' => 'spacebar clicker',
+        'gameUrl' => 'https://wordlewebsite.com/game/spacebar-clicker.embed',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/spacebar-clicker3-m190x110.png',
+        'description' => '',
+    ],        
+
+    'sudoku' => [
+        'title' => 'sudoku',
+        'gameUrl' => 'https://wordlewebsite.com/game/sudoku.embed',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/sudoku-m190x110.png',
+        'description' => '',
+    ],
+
+
+    'sedecordle' => [
+        'title' => 'sedecordle',
+        'gameUrl' => 'https://wordlewebsite.com/game/sedecordle.embed',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/sedecordle-m190x110.png',
+        'description' => '',
+    ],
 ];

@@ -1,12 +1,7 @@
 <?php
 
 return [
-    'wordle' => [
-        'title' => 'Wordle',
-        'gameUrl' => 'https://wordlewebsite.com/game/wordle.embed',
-        'image' => '/images/wordle-cover-1.png', // Example image URL
-        'description' => 'Wordle Website - is a place to play the Wordle games that have consistently appeared on informal networks and sites. This is a fundamental game with many lines of letters like other word puzzles...'
-    ],
+    
     'custom-wordle' => [
         'title' => 'Custom Wordle',
         'gameUrl' => 'https://wordlewebsite.com/game/custom-wordle.embed',

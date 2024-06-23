@@ -19,7 +19,7 @@
         </div>
     </div>
 
-    <div class="w-full md:w-1/4 min-h-screen px-5 py-5 border rounded-lg flex flex-grow">
+    <div class="w-full md:w-1/4 min-h-screen px-5 py-5  rounded-lg flex flex-grow">
         <p class="text-white">This section will be used for ads</p>
     </div>
 </div>

@@ -279,7 +279,7 @@ return [
     'paperio2' => [
         'title' => 'paper io 2',
         'gameUrl' => 'https://html5.gamedistribution.com/c5d4966b176246748d6c847103ebfd51/?gd_sdk_referrer_url=https%3A%2F%2Fwww.1001games.com%2Fmultiplayer%2Fpaper-io-2 ',
-        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/paper-io-2-m190x110.png',
+        'image' => '/images/paperio.webp',
         'description' => '',
     ],
 

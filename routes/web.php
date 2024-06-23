@@ -1,23 +1,15 @@
 <?php
+
+use App\Http\Controllers\GameController;
 use App\Livewire\WordleGame;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Livewire\GameList;
+use App\Livewire\HotGames;
 
 Route::get('/', function () {
     return view('home');
 });
-Route::get('/games/{slug}', function ($slug) {
-    $games = config('games');
-
-    if (!array_key_exists($slug, $games)) {
-        abort(404);
-    }
-
-    $game = $games[$slug];
-    
-    return view('game', [
-        'title' => $game['title'],
-        'gameUrl' => $game['gameUrl'],
-        'description' => $game['description']
-    ]);
-})->name('games.show');
+Route::get('/games/{slug}', [GameController::class, 'show'])->name('games.show');
+Route::get('/hot-games', [GameController::class, 'hotGames'])->name('games.hot');
+Route::get('/new-games', [GameController::class, 'newGames'])->name('games.new');

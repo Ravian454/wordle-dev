@@ -3,5 +3,5 @@
 @section('title', 'Home')
 
 @section('content')
-    @livewire('game-list')
+    @livewire('game-list', ['games' => config('games')])
 @endsection

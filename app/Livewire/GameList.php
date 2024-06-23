@@ -8,14 +8,14 @@ class GameList extends Component
 {
     public $games;
 
-    public function mount()
+    public function mount($games = null)
     {
-        $this->games = config('games');
+        $this->games = $games ?? config('games');
     }
 
     public function render()
     {
-        return view('livewire.game-list');
+        return view('livewire.game-list', ['games' => $this->games]);
     }
 }
 

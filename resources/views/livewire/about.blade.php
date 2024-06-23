@@ -3,7 +3,7 @@
 
 @section('content')
 <div class="container mx-auto p-4">
-    <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg overflow-hidden">
+    <div class="bg-white shadow-md rounded-lg overflow-hidden">
         <div class="p-4">
             <h1 class="text-3xl font-semibold mb-4">About Us</h1>
             <p class="text-gray-700">

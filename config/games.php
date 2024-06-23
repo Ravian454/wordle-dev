@@ -316,6 +316,11 @@ return [
         'gameUrl' => 'https://wordlewebsite.com/game/sudoku.embed',
         'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/sudoku-m190x110.png',
         'description' => '',
+    ], 'sudoku' => [
+        'title' => 'sudoku',
+        'gameUrl' => 'https://wordlewebsite.com/game/sudoku.embed',
+        'image' => 'https://wordlewebsite.com/upload/cache/upload/imgs/sudoku-m190x110.png',
+        'description' => '',
     ],
 
 

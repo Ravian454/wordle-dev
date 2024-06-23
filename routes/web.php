@@ -19,3 +19,7 @@ Route::get('/favourite-games', [GameController::class, 'favGames'])->name('games
 Route::get('/about', function () {
     return view('livewire.about');
 })->name('about');
+
+Route::get('/contact-us', function () {
+    return view('livewire.contact-us');
+})->name('contact-us');

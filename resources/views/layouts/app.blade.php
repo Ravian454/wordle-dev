@@ -81,7 +81,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,180,1) 32%, rgba(
                         <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Contact Us</a>
+                        <a href="{{ route('contact-us') }}" class="hover:underline me-4 md:me-6">Contact Us</a>
                     </li>
                     <li>
                         <a href="#" class="hover:underline">Term Of Use</a>

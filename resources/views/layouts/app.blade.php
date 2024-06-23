@@ -72,7 +72,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,180,1) 32%, rgba(
                 <ul
                     class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-white">
                     <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">About Us</a>
+                        <a href="{{ route('about') }}" class="hover:underline me-4 md:me-6">About Us</a>
                     </li>
                     <li>
                         <a href="#" class="hover:underline me-4 md:me-6">Copyright</a>

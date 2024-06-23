@@ -36,4 +36,11 @@ class GameController extends Controller
 
          return view('livewire.new-games', ['games' => $games]);
      }
+
+     public function favGames()
+     {
+         $games = config('favourite-games');
+
+         return view('livewire.favourite-games', ['games' => $games]);
+     }
 }

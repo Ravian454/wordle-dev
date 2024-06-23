@@ -35,7 +35,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,180,1) 32%, rgba(
             <div :class="{ 'block': open, 'hidden': !open }" class="hidden w-full md:block md:w-auto"
                 id="navbar-default">
                 <ul
-                    class="font-medium flex flex-col p-4 md:p-0 mt-4  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4  md:flex-row md:space-x-16 space-y-8 md:space-y-0 rtl:space-x-reverse md:mt-0 md:border-0 ">
 
                     <li>
                         <a href="{{ route('games.new') }}">
@@ -48,7 +48,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,180,1) 32%, rgba(
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="{{ route('games.favourite') }}">
                             <p class="text-white border-b-4 border-green-600">Favourite Games</p>
                         </a>
                     </li>
@@ -64,13 +64,13 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,180,1) 32%, rgba(
 
     <footer class="shadow dark:bg-[#020028] ">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-            <div class="sm:flex sm:items-center sm:justify-between">
+            <div class="flex flex-col items-center md:justify-between justify-center gap-6 md:flex-row">
                 <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src="{{ url('/images/wordle.png') }}" class="h-8" alt="Flowbite Logo" />
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Wordle Game</span>
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Wordle
+                        Game</span>
                 </a>
-                <ul
-                    class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-white">
+                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-white">
                     <li>
                         <a href="{{ route('about') }}" class="hover:underline me-4 md:me-6">About Us</a>
                     </li>
@@ -86,7 +86,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,180,1) 32%, rgba(
                     <li>
                         <a href="#" class="hover:underline">Term Of Use</a>
                     </li>
-                  
+
                 </ul>
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />

@@ -96,16 +96,16 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,180,1) 32%, rgba(
                         <a href="{{ route('about') }}" class="hover:underline me-4 md:me-6">About Us</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Copyright</a>
+                        <a href="{{ route('copyright') }}" class="hover:underline me-4 md:me-6">Copyright</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                        <a href="{{ route('privacy-policy') }}" class="hover:underline me-4 md:me-6">Privacy Policy</a>
                     </li>
                     <li>
                         <a href="{{ route('contact-us') }}" class="hover:underline me-4 md:me-6">Contact Us</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline">Term Of Use</a>
+                        <a href="{{ route('term-of-use') }}" class="hover:underline">Term Of Use</a>
                     </li>
 
                 </ul>

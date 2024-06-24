@@ -23,3 +23,15 @@ Route::get('/about', function () {
 Route::get('/contact-us', function () {
     return view('livewire.contact-us');
 })->name('contact-us');
+
+Route::get('/privacy-policy', function () {
+    return view('livewire.privacy-policy');
+})->name('privacy-policy');
+
+Route::get('/copyright', function () {
+    return view('livewire.copyright');
+})->name('copyright');
+
+Route::get('/term-of-use', function () {
+    return view('livewire.term-of-use');
+})->name('term-of-use');

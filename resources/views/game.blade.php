@@ -15,7 +15,7 @@
         </iframe>
         <div class="bg-slate-200 px-10 py-10 border rounded-lg mt-8">
             <p class="text-3xl text-start font-bold">{{ $title }}</p>
-            <p class="text-lg">{{ $description }}</p>
+            <p class="text-lg">{!! $description !!}</p>
         </div>
     </div>
 
